@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        background-color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #inicio {
+        text-align: center;
+        padding: 0px 10px;
+        color: blueviolet;
+        
+      }
+      nav > a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0px 10px;
+      }
+      main {
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        text-align: center;
+        box-shadow: 10px 10px 10px 10px black;
+        font-size: 1.5em;
+      }
+      aside {
+        color: black;
+        background-color: aqua;
+        padding: 1px;
+        font-weight: bolder;
+        text-align: center;
+      }
+      aside > p {
+        margin: 0px;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+        padding: 1px;
+      }
+      footer > p {
+        margin: 0px;
+      }
+      .bola {
+        width: 100px;
+        height: 100px;
+        margin: 20px auto;
+        padding: 10px;
+        background-color: white;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="inicio">
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="#">HOME</a>
+        <a href="#">NOTICIAS</a>
+        <a href="#">CURIOSIDADES</a>
+        <a href="#">FALE CONOSCO</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <p>Esportes Politica e Tecnologia</p>
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Noticias sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+            officiis atque doloribus ipsa ipsam, nulla vel ad esse, numquam
+            earum consequatur id a quod eum aspernatur quaerat deleniti libero
+            culpa!
+          </p>
+          <aside>
+            <p>Artigo escrito por Danilo Meireles</p>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido por CursoemVideo</p>
+    </footer>
+    <div class="bola"></div>
+  </body>
+</html>
